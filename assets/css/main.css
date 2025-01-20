@@ -141,6 +141,10 @@ Version: 1.0.0
   }
 }
 
+.logo_status {
+  color: var(--theme);
+}
+
 .link-btn {
   letter-spacing: 1.2px;
   text-transform: capitalize;

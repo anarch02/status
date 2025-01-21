@@ -2629,6 +2629,36 @@ input.main-search-input::placeholder {
   visibility: hidden;
   transition: all 0.4s ease-in-out;
 }
+
+.work-process-img-01::before {
+  background-image: url(../../assets/img/ser/01.jpg);
+}
+
+.work-process-img-02::before {
+  background-image: url(../../assets/img/ser/02.jpg);
+}
+
+.work-process-img-02::before {
+  background-image: url(../../assets/img/ser/02.jpg);
+}
+
+.work-process-img-03::before {
+  background-image: url(../../assets/img/ser/03.jpg);
+}
+
+.work-process-img-04::before {
+  background-image: url(../../assets/img/ser/04.jpg);
+}
+
+.work-process-img-05::before {
+  background-image: url(../../assets/img/ser/05.jpg);
+}
+
+
+.work-process-img-06::before {
+  background-image: url(../../assets/img/ser/06.jpg);
+}
+
 .work-process-items::after {
   position: absolute;
   top: 0;

@@ -184,7 +184,7 @@
 
         .list-items {
             li {
-                text-transform: capitalize;
+                text-transform: none;
 
                 &:not(:last-child){
                     margin-bottom: 15px;

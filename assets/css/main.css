@@ -37,7 +37,7 @@ Version: 1.0.0
   border-radius: 0;
   letter-spacing: 1.2px;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.3s ease-in-out;
   position: relative;
   z-index: 1;
@@ -152,7 +152,7 @@ Version: 1.0.0
 
 .link-btn {
   letter-spacing: 1.2px;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--header);
   font-weight: 600;
   display: inline-block;
@@ -217,7 +217,7 @@ h6 {
   margin: 0px;
   padding: 0;
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.4s ease-in-out;
 }
 
@@ -450,7 +450,7 @@ p {
   height: 70px;
   border: 0;
   padding: 0 50px;
-  text-transform: capitalize;
+  text-transform: none;
   background: transparent;
   font-size: 25px;
   color: var(--header);
@@ -617,11 +617,11 @@ input.main-search-input::placeholder {
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 18px;
 }
 .section-title h2 {
-  text-transform: capitalize;
+  text-transform: none;
 }
 .section-title h3 {
   font-size: 28px;
@@ -919,7 +919,7 @@ input.main-search-input::placeholder {
   color: var(--header);
   text-align: left;
   position: relative;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 0.4s ease-in-out;
 }
 .header-main .main-menu ul li a i {
@@ -1131,13 +1131,13 @@ input.main-search-input::placeholder {
   border-bottom: 1px solid var(--border);
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .header-1 .mega-menu-wrapper .header-main .header-right .menu-cart .cart-box ul li a {
   padding: 0;
   position: relative;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .header-1 .mega-menu-wrapper .header-main .header-right .menu-cart .cart-box ul li a::after {
   position: absolute;
@@ -1171,7 +1171,7 @@ input.main-search-input::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .header-1 .mega-menu-wrapper .header-main .header-right .menu-cart .cart-box .cart-button {
   margin-top: 20px;
@@ -1525,7 +1525,7 @@ input.main-search-input::placeholder {
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child) {
   margin-bottom: 15px;
@@ -1652,7 +1652,7 @@ input.main-search-input::placeholder {
   font-size: 16px;
   color: var(--white);
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li a {
   color: var(--white);
@@ -4441,7 +4441,7 @@ input.main-search-input::placeholder {
   background: var(--black);
   margin-top: 16px;
   width: 100%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--text);
 }
 
@@ -4449,7 +4449,7 @@ input.main-search-input::placeholder {
   background: var(--black);
   outline: none;
   color: var(--theme);
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 16px;
 }
 
@@ -5207,7 +5207,7 @@ input.main-search-input::placeholder {
 .main-cart-wrapper .cart-wrapper .cart-items-wrapper table thead tr th {
   padding-bottom: 16px;
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .main-cart-wrapper .cart-wrapper .cart-items-wrapper table tbody .cart-item td {
   border-bottom: 1px solid var(--border);
@@ -5261,7 +5261,7 @@ input.main-search-input::placeholder {
 .main-cart-wrapper .cart-wrapper-footer form input {
   padding: 5px 5px;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 16px;
   outline: none;
   background: transparent;
@@ -5298,7 +5298,7 @@ input.main-search-input::placeholder {
   width: 50%;
   color: var(--header);
   font-size: 18px;
-  text-transform: capitalize;
+  text-transform: none;
   padding: 16px 0;
   font-weight: 500;
 }
@@ -5325,7 +5325,7 @@ input.main-search-input::placeholder {
   line-height: 150%;
   margin-bottom: 16px;
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .checkout-radio h4 {
   color: var(--header);
@@ -5343,7 +5343,7 @@ input.main-search-input::placeholder {
 }
 .checkout-radio .checkout-radio-wrapper .checkout-radio-single label {
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .checkout-radio .checkout-radio-wrapper .checkout-radio-single:not(:last-child) {
   margin-bottom: 12px;
@@ -5369,13 +5369,13 @@ input.main-search-input::placeholder {
   border-radius: 5px;
   padding: 12px 24px;
   color: var(--header);
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
 }
 .checkout-single-wrapper .checkout-single .checkout-single-form .input-single label {
   color: var(--header);
   font-size: 18px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -5400,7 +5400,7 @@ input.main-search-input::placeholder {
 .checkout-single-wrapper .checkout-single .checkout-single-form .payment {
   color: var(--header);
   margin-bottom: 12px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .checkout-single-wrapper .boxshado-single {
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
@@ -5423,7 +5423,7 @@ input.main-search-input::placeholder {
 .checkout-single-wrapper .checkout-single-bg .checkout-single-form .input-single input {
   border: 1px solid var(--border);
   background: transparent;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 575px) {
   .checkout-single-wrapper .checkout-single-bg {
@@ -5448,7 +5448,7 @@ input.main-search-input::placeholder {
 .checkout-single-wrapper .checkout-single-bg .payment-save label {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .shop-details-wrapper .shop-details-image {
@@ -5551,7 +5551,7 @@ input.main-search-input::placeholder {
 .shop-details-wrapper .product-details-content .details-info span {
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   position: absolute;
   left: 0;
   top: 2px;
@@ -5561,7 +5561,7 @@ input.main-search-input::placeholder {
   font-weight: 400;
   color: var(--text);
   margin-left: 150px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .shop-details-wrapper .single-tab {
   padding-top: 80px;
@@ -5627,7 +5627,7 @@ input.main-search-input::placeholder {
 }
 .shop-details-wrapper .single-tab .description-items .description-content .description-list-items .description-list li {
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--header);
   font-weight: 600;
 }
@@ -5683,7 +5683,7 @@ input.main-search-input::placeholder {
 }
 .shop-details-wrapper .single-tab .review-title .rate-now p {
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .shop-details-wrapper .single-tab .review-title .rate-now i {
   font-size: 16px;
@@ -5700,7 +5700,7 @@ input.main-search-input::placeholder {
   color: var(--text);
   background-color: var(--bg);
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 575px) {
   .shop-details-wrapper .single-tab .review-form .form-clt input {
@@ -5762,7 +5762,7 @@ input.main-search-input::placeholder {
   box-shadow: none;
   background-color: var(--theme);
   padding: 30px 30px 0;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 24px;
   border-radius: 5px 5px 0 0;
 }
@@ -7464,7 +7464,7 @@ input.main-search-input::placeholder {
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 767px) {
@@ -7621,7 +7621,7 @@ input.main-search-input::placeholder {
 .news-area .main-sidebar .single-sidebar-widget ul > li a {
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .news-area .main-sidebar .single-sidebar-widget ul > li a:hover {
   color: var(--theme);
@@ -7693,7 +7693,7 @@ input.main-search-input::placeholder {
   padding: 20px;
   width: 100%;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--header);
 }
 .search_widget form button {
@@ -7739,7 +7739,7 @@ input.main-search-input::placeholder {
   line-height: 22px;
   font-weight: 600;
   margin-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .popular-posts .single-post-item .post-content h5 a:hover, .popular_posts .single-post-item .post-content h5 a:hover {
   color: var(--theme);
@@ -7749,7 +7749,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
   font-weight: 600;
   font-size: 15px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .popular-posts .single-post-item .post-content .post-date i, .popular_posts .single-post-item .post-content .post-date i {
   margin-right: 7px;
@@ -7799,7 +7799,7 @@ input.main-search-input::placeholder {
   font-weight: 600;
   background: var(--bg);
   margin-right: 10px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 10px;
 }
 .tagcloud a:last-child {
@@ -8042,7 +8042,7 @@ p.sticky-label {
   width: 100%;
   border: none;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--header);
   background-color: var(--bg);
 }
@@ -8947,7 +8947,7 @@ p.sticky-label {
   color: var(--white);
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li {
-  text-transform: capitalize;
+  text-transform: none;
 }
 .footer-widgets-wrapper .single-footer-widget .list-items li:not(:last-child) {
   margin-bottom: 15px;

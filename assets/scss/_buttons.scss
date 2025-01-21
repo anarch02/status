@@ -9,7 +9,7 @@
     border-radius: 0;
     letter-spacing: 1.2px;
     line-height: 1;
-    text-transform: capitalize;
+    text-transform: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: relative;
@@ -133,7 +133,7 @@
 
 .link-btn {
     letter-spacing: 1.2px;
-    text-transform: capitalize;
+    text-transform: none;
     color: $header-color;
     font-weight: 600;
     display: inline-block;

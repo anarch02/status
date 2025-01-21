@@ -99,7 +99,7 @@
 				color:  $header-color;
 				text-align: left;
 				position: relative;
-				text-transform: capitalize;
+				text-transform: none;
 				@include transition;
 	
 				i {
@@ -354,13 +354,13 @@
 								border-bottom: 1px solid $border-color;
 								font-size: 16px;
 								font-weight: 600;
-								text-transform: capitalize;
+								text-transform: none;
 			
 								a {
 									padding: 0;
 									position: relative;
 									font-size: 16px;
-									text-transform: capitalize;
+									text-transform: none;
 									
 									&::after {
 										position: absolute;
@@ -400,7 +400,7 @@
 								font-size: 16px;
 								font-weight: 600;
 								color: $header-color;
-								text-transform: capitalize;
+								text-transform: none;
 							}
 						}
 		
@@ -898,7 +898,7 @@
 				li {
 					font-size: 16px;
 					font-weight: 500;
-					text-transform: capitalize;
+					text-transform: none;
 
 					&:not(:last-child){
 						margin-bottom: 15px;
@@ -1031,7 +1031,7 @@
 				font-size: 16px;
 				color: $white;
 				font-weight: 500;
-				text-transform: capitalize;
+				text-transform: none;
 	
 				a {
 					color: $white;				;

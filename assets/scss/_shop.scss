@@ -168,7 +168,7 @@
               th {
                 padding-bottom: 16px;
                 color: $header-color;
-                text-transform: capitalize;
+                text-transform: none;
               }
             }
           }
@@ -241,7 +241,7 @@
         input {
           padding: 5px 5px;
           border: none;
-          text-transform: capitalize;
+          text-transform: none;
           font-size: 16px;
           outline: none;
           background: transparent;
@@ -284,7 +284,7 @@
             width: 50%;
             color:  $header-color;
             font-size: 18px;
-            text-transform: capitalize;
+            text-transform: none;
             padding: 16px 0;
             font-weight: 500;
           }
@@ -317,7 +317,7 @@
         line-height: 150%;
         margin-bottom: 16px;
         color: $header-color;
-        text-transform: capitalize;
+        text-transform: none;
     }
 
     padding: 24px;
@@ -342,7 +342,7 @@
 
             label {
                 color: $header-color;
-                text-transform: capitalize;
+                text-transform: none;
             }
 
             &:not(:last-child){
@@ -376,14 +376,14 @@
                     border-radius: 5px;
                     padding: 12px 24px;
                     color: $header-color;
-                    text-transform: capitalize;
+                    text-transform: none;
                     font-weight: 500;
                 }
 
                 label {
                     color: $header-color;
                     font-size: 18px;
-                    text-transform: capitalize;
+                    text-transform: none;
                     margin-bottom: 10px;
                     font-weight: 500;
                 }
@@ -410,7 +410,7 @@
             .payment {
               color: $header-color;
                 margin-bottom: 12px;
-                text-transform: capitalize;
+                text-transform: none;
             }
         }
     }
@@ -439,7 +439,7 @@
                 input {
                     border: 1px solid $border-color;
                     background: transparent;
-                    text-transform: capitalize;
+                    text-transform: none;
                 }
             } 
         }
@@ -466,7 +466,7 @@
           label {
               font-size: 16px;
               font-weight: 500;
-              text-transform: capitalize;
+              text-transform: none;
           }
         }
     }
@@ -589,7 +589,7 @@
            span {
              font-size: 16px;
              font-weight: 600;
-             text-transform: capitalize;
+             text-transform: none;
              position: absolute;
              left: 0;
              top: 2px;
@@ -600,7 +600,7 @@
               font-weight: 400;
               color: $text-color;
               margin-left: 150px;
-              text-transform: capitalize;
+              text-transform: none;
            }
         }
     }
@@ -674,7 +674,7 @@
                     .description-list {
                         li {
                             font-size: 16px;
-                            text-transform: capitalize;
+                            text-transform: none;
                             color: $header-color;
                             font-weight: 600;
   
@@ -751,7 +751,7 @@
   
                 p {
                     font-size: 16px;
-                    text-transform: capitalize;
+                    text-transform: none;
                 }
   
                 i {
@@ -772,7 +772,7 @@
                     color: $text-color;
                     background-color: $bg-color;
                     font-size: 16px;
-                    text-transform: capitalize;
+                    text-transform: none;
                     @include breakpoint(max-sm){
                         padding: 15px 20px;
                     }

@@ -216,7 +216,7 @@ br {
   background: $black;
   margin-top: 16px;
   width: 100%;
-  text-transform: capitalize;
+  text-transform: none;
   color: $text-color;
 }
 
@@ -224,7 +224,7 @@ br {
   background: $black;
   outline: none;
   color: $theme-color;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 16px;
 }
 

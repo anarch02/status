@@ -145,6 +145,11 @@ Version: 1.0.0
   color: var(--theme);
 }
 
+
+.logo_white {
+  color: #ffffff;
+}
+
 .link-btn {
   letter-spacing: 1.2px;
   text-transform: capitalize;

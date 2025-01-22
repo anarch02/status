@@ -2346,10 +2346,7 @@ input.main-search-input::placeholder {
   color: var(--black);
   margin-bottom: 5px;
 }
-.hero-3 .hero-slider-items {
-  margin-right: -90%;
-  transform: rotate(-45deg);
-}
+
 @media (max-width: 1199px) {
   .hero-3 .hero-slider-items {
     transform: rotate(0);
@@ -2360,8 +2357,8 @@ input.main-search-input::placeholder {
     margin-right: 0;
   }
 }
-.hero-3 .hero-slider-items .hero-image {
-  max-width: 410px;
+.hero-3 .hero-slider-items .image {
+  max-width: 810px;
 }
 .hero-3 .hero-slider-items .hero-image img {
   width: 100%;
@@ -5009,7 +5006,7 @@ input.main-search-input::placeholder {
 }
 
 .team-contact-wrapper .contact-form-items .form-clt {
-  position: relative;
+  /* position: relative; */
 }
 .team-contact-wrapper .contact-form-items .form-clt input, .team-contact-wrapper .contact-form-items .form-clt textarea {
   width: 100%;

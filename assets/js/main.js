@@ -59,7 +59,7 @@
         //>> Counterup Start <<//
         $(".count").counterUp({
             delay: 15,
-            time: 4000,
+            time: 1000,
         });
 
         //>> Wow Animation Start <<//

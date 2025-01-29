@@ -774,17 +774,8 @@
                     <div class="content">
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">Связаться с нами</h2>
                         <p class="wow fadeInUp" data-wow-delay=".5s">Успейте приобрести квартиру в элитном жилом комплексе по выгодным ценам!</p>
-                        <div class="newsletter-items">
-                            <div class="form-clt wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                <input type="text" name="name" id="name" placeholder="Имя">
-                            </div>
-                            <div class="form-clt wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                <input type="text" name="phone" id="phone" placeholder="Номер телефона">
-                            </div>
-                            <button class="theme-btn hover-white wow fadeInUp" data-wow-delay=".9s" type="submit" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">
-                                <span>Отправить</span>
-                            </button>
-                        </div>
+                        <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1481022",hash:"daa95c8c8083156cae8452a7f1d4f9d1",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1481022" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1738140037"></script>
+
                         <div class="newsletter-items text-center">
                             <a href="https://wa.me/message/GWATPMQ4X3CWF1" class="theme-btn hover-white wow fadeInUp" data-wow-delay=".9s" type="submit">
                                 <span>Написать на whatsapp <i class="fab fa-whatsapp"></i></span>

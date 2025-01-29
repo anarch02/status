@@ -1,0 +1,2 @@
+login: mail@onthesea.ge
+password: Onthesea2023

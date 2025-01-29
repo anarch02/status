@@ -35,6 +35,10 @@ Version: 1.0.0
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .theme-btn {
   background-color: var(--theme);
   color: var(--white);

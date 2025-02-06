@@ -604,6 +604,23 @@
     }
     loader();
 
+    const modal = document.getElementById("feedbackModal"); // Укажи ID модального окна
+    const amoFormWrapper = document.getElementById("amofroms_main_wrapper");
+
+    if (modal && amoFormWrapper) {
+        document.getElementById("openModalButton").addEventListener("click", function () {
+            setTimeout(() => {
+                amoFormWrapper.style.height = "323px";
+                amoFormWrapper.style.overflow = "visible";
+            }, 300);
+        });
+
+        document.getElementById("closeModalButton").addEventListener("click", function () {
+            amoFormWrapper.style.height = "0";
+            amoFormWrapper.style.overflow = "hidden";
+        });
+    }
+
     
 })(jQuery); // End jQuery
 

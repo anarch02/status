@@ -5941,6 +5941,16 @@ input.main-search-input::placeholder {
   color: var(--white);
   border-radius: 5px;
 }
+
+#amoforms_iframe_1481046 {
+  width: 100% !important;
+  max-width: 466px !important;
+  height: 400px !important; /* Укажи нужную высоту */
+  min-height: 400px !important;
+  overflow: hidden !important;
+}
+
+
 @media (max-width: 767px) {
   .cta-banner-wrapper .newsletter-items .form-clt input {
     padding: 14px 30px;

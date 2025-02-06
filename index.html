@@ -29,6 +29,7 @@
     </head>
 
     <body>
+
         <div class="scroll-up">
             <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                 <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
@@ -201,7 +202,7 @@
                             </div>
                             <div class="header-right d-flex justify-content-end align-items-center">
                                 <div class="header-button">
-                                    <a href="#contact" class="theme-btn bg-red-2">Связаться<i class="fas fa-long-arrow-right"></i></a>
+                                    <button type="button" class="theme-btn" data-bs-toggle="modal" data-bs-target="#feedbackModal" class="theme-btn bg-red-2">Связаться<i class="fas fa-long-arrow-right"></i></и>
                                 </div>
                                 <div class="header__hamburger d-xl-none my-auto">
                                     <div class="sidebar__toggle">
@@ -215,35 +216,36 @@
             </div>
         </header>
 
-        <section class="hero-section hero-3 fix" id="hero">
+
+    
+        <!-- Модальное окно -->
+
+
+        <section class="hero-section hero-3 fix" id="hero" style="background-image: url('assets/img/bat/04.jpg');">
             <div class="container">
                 <div class="row g-5">
+
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s">Ваша квартира у моря с предоплатой  0%
-<br>
-                                Беспроцентная рассрочка на весь период!
-                                <br>
-                                Ежемесячный платеж: от 975$</h1>
+                            <div class="mt-5"></div>
+                            <h1 class="wow fadeInUp" data-wow-delay=".3s">Ваша квартира у моря с предоплатой  0%</h1>
+                                
                             <p class="wow fadeInUp" data-wow-delay=".5s">
+                                Беспроцентная рассрочка на весь период!
+                                Ежемесячный платеж: от 975$.
                                 Элитный жилой комплекс STATUS HOUSE от застройщика ELT Group. Беспроцентная рассрочка на 40 месяцев! Лучшая цена сейчас на котловане, успейте забронировать свою квартиру СЕЙЧАС
                             </p>
                             <div class="hero-button">
-                                <a href="#contact" class="theme-btn radius-none padding-style wow fadeInUp" data-wow-delay=".7s">
-                                    Получить консультацию
+                                <a href="#portfolio" class="theme-btn radius-none padding-style wow fadeInUp" data-wow-delay=".7s">
+                                    Посмотреть квартиру
                                     <i class="fas fa-long-arrow-right"></i>
                                 </a>
-                                <div class="icon-items wow fadeInUp" data-wow-delay=".9s">
-                                    <div class="icon">
-                                        <a href="#contact"><i class="fas fa-phone-alt"></i></a>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-slider-items">
-                            <img src="assets/img/ge/17.jpg" class="image hero-img" alt="hero-img">
+                            <!-- <img src="assets/img/hero/st21.jpg" class="image hero-img " alt="hero-img"> -->
                         </div>
                     </div>
                 </div>
@@ -275,10 +277,10 @@
                                 </p>
                                 <br>
                                 <div class="about-button wow fadeInUp" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInUp;">
-                                    <a href="#contact" class="theme-btn">
+                                    <button type="button" class="theme-btn" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                                         Забронируйте сейчас
                                         <i class="fas fa-long-arrow-right"></i>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -292,6 +294,7 @@
                 </div>
             </div>
         </section>
+
 
         <section class="portfolio-section fix section-padding" id="portfolio">
             <div class="container">
@@ -313,26 +316,26 @@
                                     на 40 месяцев<br>
                                     Состояние: черный каркас
                                 </p>
-                                <a href="#contact" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".7s">
+                                <a href="#0" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".7s">
                                     от $38,907
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6 mt-5 mt-lg-0 wow fadeInUp" data-wow-delay=".4s">
                             <div class="project-image">
-                                <img src="assets/img/plan/01.avif" alt="img">
+                                <img src="assets/img/plan/01.jpg" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6 mt-lg-5 pic-1">
                             <div class="project-image ms-0 wow fadeInUp" data-wow-delay=".4s">
-                                <img src="assets/img/plan/02.avif" alt="img">
+                                <img src="assets/img/plan/02.jpg" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6 mt-lg-0">
                             <div class="portfolio-content">
                                 <span class="wow fadeInUp">(1+1)</span>
                                 <h3 class="wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="#contact">Апартаменты с одной спальней</a>
+                                    <a href="#0">Апартаменты с одной спальней</a>
                                 </h3>
                                 <p class="wow fadeInUp" data-wow-delay=".5s">
                                     Площадь: 61,82 м². <br>
@@ -341,21 +344,22 @@
                                     Состояние: черный каркас
                                 </p>
                                 
-                                <a href="#contact" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".9s">
+                                <a href="#0" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".9s">
                                     от $63,107
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6 mt-lg-5 pic-2">
                             <div class="project-image ms-0 wow fadeInUp" data-wow-delay=".4s">
-                                <img src="assets/img/plan/02.avif" alt="img">
+                                
+                                <img src="assets/img/plan/02.jpg" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="portfolio-content ms-0">
                                 <span class="wow fadeInUp">(1+2)</span>
                                 <h3 class="wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="#contact">Апартаменты с двумя спальнями</a>
+                                    <a href="#0">Апартаменты с двумя спальнями</a>
                                 </h3>
                                 <p class="wow fadeInUp" data-wow-delay=".5s">
                                     Площадь: 67,7 м². <br>
@@ -363,14 +367,45 @@
                                     на 40 месяцев <br>
                                     Состояние: черный каркас
                                 </p>
-                                <a href="#contact" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".9s">
+                                <a href="#0" class="theme-btn bg-transparent radius-none padding-style wow fadeInUp" data-wow-delay=".9s">
                                     от $74,415
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6 mt-lg-5 wow fadeInUp" data-wow-delay=".9s">
                             <div class="project-image">
-                                <img src="assets/img/plan/03.avif" alt="img">
+                                <img src="assets/img/plan/03.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section fix section-padding" id="development">
+            <div class="container">
+                <div class="about-wrapper-3 style-2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-image-items">
+                                <div class="about-image-1 bg-cover wow fadeInUp" data-wow-delay=".3s" style="background-image: url('assets/img/dev/elt2.png');">
+                                    <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
+                                        <img src="assets/img/dev/EltBuilding3.jpg" alt="about-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <div class="about-content">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp">О застройщике</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        ELT Building <br> Development
+                                    </h2>
+                                </div>
+                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                                    Компания ELT Group, имея 18-летний опыт работы на рынке Грузии, впервые вышла на строительный и девелоперский сектор в 2017 году. За относительно короткий период ELT Group зарекомендовала себя как надежный партнер, достигнув стремительного роста благодаря продуманной стратегии развития.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -441,10 +476,10 @@
                                         </div>
                                     </div>
                                     <div class="about-button wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                        <a href="#contact" class="theme-btn bg-transparent">
+                                        <button type="button"  data-bs-toggle="modal" data-bs-target="#feedbackModal" class="theme-btn bg-transparent">
                                             Получите консультацию сейчас
                                             <i class="fas fa-long-arrow-right"></i>
-                                        </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -545,10 +580,10 @@
                             С нами Вы получите: полное сопровождение сделки нашими сотрудниками, от подборки/выбора объекта, изучения контракта, встречи вас в Батуми на живой показ/сделку, оформления ипотеки до регистрации в юстиции. Наши сотрудники становятся вашими глазами и ушами от начала до конца, пока вы живете своей привычной жизнью, а ваша квартира у моря строится.
                         </p>
                         <div class="about-button wow fadeInUp" data-wow-delay=".7s">
-                            <a href="#contact" class="theme-btn bg-transparent">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal" class="theme-btn bg-transparent">
                                 Связаться с нами
                                 <i class="fas fa-long-arrow-right"></i>
-                            </a>
+                            </button>
                         </div>
                         </div>
                     </div>
@@ -756,7 +791,7 @@
             </div>
         </section>
 
-        <br id="contact">
+        <!-- <br id="contact">
         <br>
         <br>
         <br>
@@ -775,8 +810,7 @@
                         <div class="row">
                             <h2 class="wow fadeInUp" data-wow-delay=".3s">Связаться с нами</h2>
                             <div class="col-xl-6">
-                                <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1481046",hash:"8c44888821bbd84e1785e1b6a1141b0b",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1481046" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1738141901"></script>
-                            </div>
+                                <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1481046",hash:"8c44888821bbd84e1785e1b6a1141b0b",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1481046" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1738575485"></script>                            </div>
                             <div class="col-xl-6">
                                 <p class="wow fadeInUp" data-wow-delay=".5s">Успейте приобрести квартиру в элитном жилом комплексе по выгодным ценам!</p>
                                 <div class="newsletter-items text-center">
@@ -795,8 +829,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-
+        </section> -->
 
 
         <footer class="footer-section footer-bg">
@@ -903,6 +936,15 @@
             </div>
         </footer>
 
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1481046",hash:"8c44888821bbd84e1785e1b6a1141b0b",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1481046" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1738575485"></script>                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="assets/js/jquery-3.7.1.min.js"></script>
         <script src="assets/js/viewport.jquery.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
